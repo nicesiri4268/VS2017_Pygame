@@ -11,7 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>python环境</Name>
     <RootNamespace>python环境</RootNamespace>
-    <InterpreterId>CondaEnv|CondaEnv|Pygame</InterpreterId>
+    <InterpreterId>Global|VisualStudio|Tensorflow_cpu</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -25,7 +25,7 @@
     <Compile Include="python环境.py" />
   </ItemGroup>
   <ItemGroup>
-    <InterpreterReference Include="CondaEnv|CondaEnv|Pygame" />
+    <InterpreterReference Include="Global|VisualStudio|Tensorflow_cpu" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
